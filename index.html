@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO RESER</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <div class="navegar">
+                <ul id="menuLista">
+                    <li><a href="#hogar">Hogar</a></li>
+                    <li><a href="#acercaDe">Acerca de</a></li>
+                    <li><a href="#alojamiento">Alojamiento</a></li>
+                    <li><a href="#paginas">Paginas</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><button class="primary-btn">Reservar Ahora</button></li>
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+        </div>
+    </header>
+    <script>
+        var menuLista = document.getElementById('menuLista')
+        menuLista.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuLista.style.maxHeight == "0px"){
+            menuLista.style.maxHeight = "100vh";
+            } else {menuLista.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

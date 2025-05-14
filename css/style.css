@@ -42,7 +42,7 @@ button{
 
 .primary-btn{
     padding: 15px 40px;
-    background: #7fc142;
+    background: #006f7f;
     font-weight: bold;
     color: white;
 }
@@ -55,9 +55,14 @@ button{
     color: white;
 }
 
-.container{
-    max-width: 85%;
-    margin: auto;
+
+
+header #logo{
+    position: relative;
+    max-width: 150px;
+    height: auto;
+    top: 10px;
+    left: 20px;
 }
 
 /*----------header-----------*/
@@ -87,7 +92,7 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color: #7fc142;
+    color: #006f7f;
 }
 
 header i{
@@ -133,5 +138,11 @@ header .navegar span{
         cursor: pointer;
         line-height: 10vh;
         font-size: 25px;
+    }
+    header #logo {
+        max-width: 50px;
+    }
+    header ul li a:hover{
+        color: white;
     }
 }
